@@ -1,0 +1,411 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <style>
+
+    @media only screen and (max-width: 768px) {
+
+.article {
+    width: 33%;
+}
+
+.beach {
+    display: none;
+
+}
+
+.website {
+  background-image: url("images/mobile\ beach.jpg")
+}
+
+
+
+}
+
+    @keyframes swing { 
+        20% { transform: rotate(15deg); } 
+        40% { transform: rotate(-10deg); } 
+        60% { transform: rotate(5deg); } 
+        80% { transform: rotate(-5deg); } 
+        100% { transform: rotate(0deg); } 
+        }
+
+            .dropdown:hover {
+
+            }
+        
+        
+            .logo {
+                width: 70px;
+                position: absolute;
+                top: 30;
+                left: 30px;
+                
+            
+                
+            }
+
+            .logo:hover {
+                animation: swing;
+                animation-duration: 5s;
+            }
+
+
+            .beach {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+
+            nav {
+    margin: 0 auto;
+    display: block;
+  
+    padding: 75px 0 0 0;  
+    text-align: right;
+    font-size: 16px;
+            }
+
+    ul li {
+      list-style: none;
+      margin: 0 auto;
+      border-left: 2px solid #3ca0e7;
+      display: inline-block;
+      padding: 0 30px;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+      font-family: arvo;
+    }
+
+    li a {
+      color: black;
+    }
+
+    li a:hover {
+      color: #3ca0e7;
+    }
+
+    li:hover {
+      cursor: pointer;
+    }
+
+    ul li ul {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+padding-left: 0;
+      left: 0;
+      display: none;
+      background: white;
+    }
+
+    ul li:hover > ul,
+    ul li ul:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      min-width: 250px;
+      text-align: left;
+      padding-top: 20px;
+      box-shadow: 0px 3px 5px -1px #ccc;
+    }
+
+    ul li ul li {
+      clear: both;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 20px;
+      border-style: none;
+    }
+
+    ul li ul li a:hover {
+      padding-left: 10px;
+      border-left: 2px solid #3ca0e7;
+      transition: all 0.3s ease;
+    }
+  
+a {
+
+    text-decoration: none;
+
+   
+ 
+}
+
+ ul li ul li a { transition: all 0.5s ease; }
+
+
+img:hover {
+    filter: grayscale(50%);
+
+}
+
+body {font-family: sans-serif;}
+p {color: #666;}
+
+h2 {
+  font-size: 2em;
+  color: #e74c3c;  
+}
+.centered {
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+@media screen and (min-width: 52em) {
+    .centered {
+        max-width: 52em;
+    }
+}
+
+
+.masthead {
+    background: #e74c3c;
+  	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.site-title {
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (min-width: 44.44em) {
+    .site-title {
+        font-size: 2em;
+    }
+}
+    
+@media screen and (min-width: 50em) {
+    .site-title {
+        font-size: 2.5em;
+    }
+}
+
+.site-title a {
+    color: hsl(5, 45%, 95%);
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+}
+
+/* Card Based Layout - Base styles */
+body {
+  background: #ecf0f1;
+  line-height: 1.4;
+}
+
+.site-title {
+	color: white;
+}
+
+.card {
+	background: white;
+	margin-bottom: 2em;	
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+.card-content p {
+	font-size: 95%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+@media screen and (min-width: 40em) {  
+  .cards {
+    margin-top: -1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 1em;
+    display: flex;
+    flex: 0 1 calc(50% - 0.5em);
+    
+  }
+} 
+
+@media screen and (min-width: 60em) {
+  .cards {
+    margin-top: inherit;
+  }
+  
+  .card {
+    margin-bottom: 2em;
+    display: flex;
+    flex: 0 1 calc(33% - 0.5em);
+    
+  }
+} 
+
+
+
+
+            
+
+            
+
+              
+        
+    </style>
+        <header>
+        <div class="website">
+        <div class = "logo">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 635 594" style="enable-background:new 0 0 635 594;" xml:space="preserve">
+       <style type="text/css">
+           .st0{fill:url(#SVGID_1_);}
+           .st1{fill:none;stroke:#000000;stroke-width:7;stroke-miterlimit:10;}
+       </style>
+       <g>
+           <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-246.5027" y1="297" x2="388.4973" y2="297">
+               <stop  offset="0.2576" style="stop-color:#27AAE1;stop-opacity:0"/>
+               <stop  offset="0.6583" style="stop-color:#27AAE1;stop-opacity:0.6512"/>
+               <stop  offset="0.7179" style="stop-color:#5FB1E2;stop-opacity:0.7034"/>
+               <stop  offset="0.7942" style="stop-color:#84B8E4;stop-opacity:0.7701"/>
+               <stop  offset="0.8682" style="stop-color:#9CBEE5;stop-opacity:0.8348"/>
+               <stop  offset="0.9382" style="stop-color:#AAC2E5;stop-opacity:0.896"/>
+               <stop  offset="1" style="stop-color:#AFC3E5;stop-opacity:0.95"/>
+           </linearGradient>
+           <rect class="st0" width="635" height="594"/>
+           <g>
+               <path class="st1" d="M126,212.51c18.44,116.62,32.77,158.42,44.05,157.98c17.83-0.7,22.34-106.72,41.6-107.38
+                   c22.43-0.76,35.97,142.22,52.62,141.94c12.9-0.22,26.59-86.46,39.16-349.29"/>
+               <line class="st1" x1="353.6" y1="164.37" x2="509" y2="426.03"/>
+               <line class="st1" x1="466.18" y1="164.37" x2="275.28" y2="526"/>
+           </g>
+       </g>
+       </svg>
+       
+
+</div>
+
+<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+
+<nav role="navigation" class="primary-navigation">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="package.hmtl">Package Tours &dtrif;</a>
+      <ul class="dropdown">
+        <li><a href="#">Sub 1</a></li>
+        <li><a href="#">Sub 2</a></li>
+        <li><a href="#">Sub 3</a></li>
+        <li><a href="#">Sub 4</a></li>
+      </ul>
+    </li>
+    <li><a href="rediscover.html">Rediscover Sinagpore</a></li>
+    <li><a href="cruises.html">Cruises</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+
+<main class="main-area">
+
+  <div class="centered">
+
+    <section class="cards">
+
+      <article class="card">
+        <a href="#">
+          <figure class="thumbnail">
+          <img src="images/nature.jpg" width="200" height="200" alt="meow">
+          </figure>
+          <div class="card-content">
+            <h2>Nature</h2>
+            <p></p>
+          </div>
+        
+        </a>
+      </article>
+     
+
+      <article class="card">
+        <a href="#">
+          <figure class="thumbnail">
+            <img src="images/attractions.jpg" width="200" height="200" alt="meow">
+          </figure>
+          <div class="card-content">
+            <h2>Attractions</h2>
+            <p></p>
+          </div>
+         
+        </a>
+      </article>
+     
+
+      <article class="card">
+        <a href="#">
+          <figure class="thumbnail">
+            <img src="images/museum.jpg" width="200" height="200" alt="meow">
+          </figure>
+          <div class="card-content">
+            <h2>Museums</h2>
+            <p></p>
+          </div>
+       
+        </a>
+      </article>
+      
+
+     
+
+     
+      
+      
+
+      
+
+
+
+
+
+<video autoplay muted loop class="beach">
+    <source src="videos/beach.mp4" type="video/mp4">
+</video>
+
+
+</body>
+</div>
+
+</html>
